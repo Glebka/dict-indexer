@@ -1,6 +1,5 @@
-  
-  dict-indexer
- =============================================
+ dict-indexer
+==============
  
  This package contains linguistic data for Russian language
  extracted from FreeLing project.
