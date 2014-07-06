@@ -1,6 +1,5 @@
-package dict.indexer;
+package com.dictindexer;
 
-import java.util.ArrayList;
 import java.util.Stack;
 /*
 java -jar dict-indexer.jar -o index dictionary/adjs dictionary/adverb dictionary/conjunction dictionary/cpart dictionary/interjection dictionary/nouns dictionary/numeral dictionary/ordinal_numeral dictionary/participle dictionary/particle dictionary/preposition dictionary/pronominal_adjs dictionary/pronominal_adverb dictionary/pronoun dictionary/verbs
@@ -60,7 +59,6 @@ public class DictIndexer implements IParserEventListener{
     }
     
     public static void main(String[] args) {
-        // TODO code application logic here        
         new DictIndexer(args);
     }
     
